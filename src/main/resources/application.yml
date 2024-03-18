@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: 'spring-security'
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crm_db_1
+    username: mirakhmadov
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
